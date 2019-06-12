@@ -34,4 +34,4 @@ CarImagesSchema.pre("remove", function(){
     }
 })
 
-module.exports = mongoose.model("Post", CarImagesSchema)
+module.exports = mongoose.model("CarImages", CarImagesSchema)
