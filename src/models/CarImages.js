@@ -11,6 +11,7 @@ const CarImagesSchema = new mongoose.Schema({
     size: Number,
     key: String,
     url: String,
+    carId: String,
     createdAt: {
         type: Date,
         default: Date.now
